@@ -1,0 +1,161 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.corona_safe"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:8:5-83:19
+14        android:allowBackup="true"
+14-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:9:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.5.0] C:\Users\singer\.gradle\caches\transforms-2\files-2.1\cc5e9dcdc56dc39042f72c501235e83f\core-1.5.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="Lock Downed Districts"
+18-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:11:9-46
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.CovidAdmin" >
+22-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:14:9-48
+23        <activity android:name="com.example.corona_safe.AddLockdownDashboard" />
+23-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:15:9-67
+23-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:15:19-55
+24        <activity
+24-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:17:9-20:65
+25            android:name="com.example.corona_safe.AddActivity"
+25-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:19:13-40
+26            android:parentActivityName="com.example.corona_safe.AddLockdownDashboard" />
+26-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:20:13-63
+27        <activity
+27-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:23:9-24:65
+28            android:name="com.example.corona_safe.UpdateActivity"
+28-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:23:19-49
+29            android:parentActivityName="com.example.corona_safe.AddLockdownDashboard" />
+29-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:24:13-63
+30        <activity android:name="com.example.corona_safe.provinceWise" />
+30-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:25:9-50
+30-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:25:19-47
+31        <activity
+31-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:26:9-28:39
+32            android:name="com.example.corona_safe.provinces"
+32-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:27:13-38
+33            android:exported="true" />
+33-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:28:13-36
+34        <activity
+34-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:32:9-34:39
+35            android:name="com.example.corona_safe.srilankafigures"
+35-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:33:13-44
+36            android:exported="true" />
+36-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:34:13-36
+37        <activity
+37-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:35:9-37:39
+38            android:name="com.example.corona_safe.covidDailyupdatesAdmin"
+38-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:36:13-51
+39            android:exported="true" />
+39-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:37:13-36
+40        <activity
+40-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:38:9-42:67
+41            android:name="com.example.corona_safe.HomeActivity"
+41-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:39:13-41
+42            android:exported="true"
+42-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:40:13-36
+43            android:label="Home"
+43-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:41:13-33
+44            android:theme="@style/Theme.CORONASafe.NoActionBar" />
+44-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:42:13-64
+45        <activity
+45-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:43:9-47:67
+46            android:name="com.example.corona_safe.AdminHomeActivity"
+46-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:44:13-46
+47            android:exported="true"
+47-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:45:13-36
+48            android:label="Admin Home"
+48-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:46:13-39
+49            android:theme="@style/Theme.CORONASafe.NoActionBar" />
+49-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:47:13-64
+50        <activity
+50-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:48:9-52:67
+51            android:name="com.example.corona_safe.AdminUpdateActivity"
+51-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:49:13-48
+52            android:exported="true"
+52-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:50:13-36
+53            android:label="Admin Update"
+53-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:51:13-41
+54            android:theme="@style/Theme.CORONASafe.NoActionBar" />
+54-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:52:13-64
+55        <activity
+55-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:53:9-57:67
+56            android:name="com.example.corona_safe.SignUPActivity"
+56-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:54:13-43
+57            android:exported="true"
+57-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:55:13-36
+58            android:label="SignUPActivity"
+58-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:56:13-43
+59            android:theme="@style/Theme.CORONASafe.NoActionBar" />
+59-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:57:13-64
+60        <activity
+60-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:58:9-62:67
+61            android:name="com.example.corona_safe.SignInActivity"
+61-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:59:13-43
+62            android:exported="true"
+62-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:60:13-36
+63            android:label="@string/title_activity_sign_in"
+63-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:61:13-59
+64            android:theme="@style/Theme.CORONASafe.NoActionBar" />
+64-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:62:13-64
+65        <activity
+65-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:63:9-67:67
+66            android:name="com.example.corona_safe.SettingsActivity"
+66-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:64:13-45
+67            android:exported="true"
+67-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:65:13-36
+68            android:label="SettingsActivity"
+68-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:66:13-45
+69            android:theme="@style/Theme.CORONASafe.NoActionBar" />
+69-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:67:13-64
+70        <activity
+70-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:68:9-78:20
+71            android:name="com.example.corona_safe.MainActivity"
+71-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:69:13-41
+72            android:exported="true"
+72-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:70:13-36
+73            android:label="@string/app_name"
+73-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:71:13-45
+74            android:theme="@style/Theme.CORONASafe.NoActionBar" >
+74-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:72:13-64
+75            <intent-filter>
+75-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:73:13-77:29
+76                <action android:name="android.intent.action.MAIN" />
+76-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:74:17-69
+76-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:74:25-66
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:76:17-77
+78-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:76:27-74
+79            </intent-filter>
+80        </activity>
+81
+82        <meta-data
+82-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:80:9-82:57
+83            android:name="preloaded_fonts"
+83-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:81:13-43
+84            android:resource="@array/preloaded_fonts" />
+84-->C:\Users\singer\Desktop\MAD_FINAL_STATIC_INTEGRAE\madErrorcheck\app\src\main\AndroidManifest.xml:82:13-54
+85    </application>
+86
+87</manifest>
